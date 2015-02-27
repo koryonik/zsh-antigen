@@ -24,3 +24,8 @@ antigen-theme agnoster
 # Apply all to antigen
 antigen-apply
 
+# Load specific machine zshrc configuration
+if [ -f ~/.zshrc_local ]; then
+    source ~/.zshrc_local
+fi
+
